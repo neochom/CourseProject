@@ -1,0 +1,7159 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Regular";
+  src: url("LabGrotesque-Regular.eot");
+  src: url(../Font/LabGrotesque-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Medium";
+  src: url("LabGrotesque-Medium.eot");
+  src: url(../Font/LabGrotesque-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bold";
+  src: url("LabGrotesque-Bold.eot");
+  src: url(../Font/LabGrotesque-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Thin";
+  src: url("LabGrotesque-Thin.eot");
+  src: url(../Font/LabGrotesque-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mono";
+  src: url("LabGrotesqueMono.eot");
+  src: url(../Font/LabGrotesqueMono.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Light";
+  src: url("LabGrotesque-Light.eot");
+  src: url(../Font/LabGrotesque-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Black";
+  src: url("LabGrotesque-Black.eot");
+  src: url(../Font/LabGrotesque-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.a-button {
+  text-decoration: none;
+}
+
+header {
+  background-image: url("../Pictures/21.09 1.png");
+  background-size: cover;
+  padding: 32px 9.02vw 120px 9.02vw;
+}
+
+.header {
+  color: white;
+}
+.header-information {
+  display: flex;
+  justify-content: space-between;
+}
+.header-info {
+  display: flex;
+  color: white;
+  font-family: "Thin";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+}
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.32vw;
+  margin-right: 0.2vw;
+}
+.header-contacts-tel {
+  color: white;
+  font-family: "Thin";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+}
+.header-contacts-mail {
+  color: white;
+  font-family: "Thin";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header-wrapper-logo {
+  margin-top: 1.1vw;
+  width: 10.76vw;
+  height: 3.26vw;
+}
+.header-wrapper-menu {
+  margin-top: 2.71vw;
+  color: white;
+  display: flex;
+  gap: 2.78vw;
+  font-family: "Medium";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  word-spacing: 0.22vw;
+}
+.header-content {
+  margin-top: 19.79vw;
+  display: flex;
+  flex-direction: row;
+}
+.header-content-geetings {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.38vw;
+  justify-content: space-between;
+}
+.header-content-geetings-message {
+  display: flex;
+  flex-direction: column;
+  gap: 1.11vw;
+}
+.header-content-geetings-message p {
+  font-family: "Thin";
+  font-size: 0.729vw;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  word-spacing: 0.4vw;
+}
+.header-content-geetings-message h1 {
+  color: #fff;
+  font-family: "Medium";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 72px;
+}
+.header-content-geetings-comment {
+  font-family: "Light";
+  font-size: 0.94vw;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  word-spacing: 0.1vw;
+}
+.header-content-action {
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+  margin-left: 2.08vw;
+  margin-top: 44px;
+}
+.header-content-action-top50 {
+  width: 16.875vw;
+  height: 4.03vw;
+  display: flex;
+  margin-left: 1.875vw;
+}
+.header-content-action-button {
+  font-family: "Regular";
+  background: #FFFFFF;
+  color: #222733;
+  width: 19.4vw;
+  height: 4.17vw;
+  display: flex;
+  font-size: 0.94vw;
+  padding-top: 19px;
+  padding-left: 67px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  word-spacing: 0.2vw;
+}
+.header-content-action-button:hover {
+  background: #222733;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.AboutUs {
+  margin: 140px 9.03vw;
+}
+.AboutUs-title {
+  display: flex;
+  gap: 18.33vw;
+}
+.AboutUs-title-p {
+  font-family: "Thin";
+  color: #222733;
+  font-size: 14px;
+}
+.AboutUs-title-h2 {
+  font-family: "Regular";
+  color: #222733;
+  font-size: 40px;
+  width: 59.32vw;
+  margin-right: 0.85vw;
+  letter-spacing: 0.087vw;
+}
+.AboutUs-discreption {
+  width: 61.11vw;
+  margin-left: 20.83vw;
+  margin-top: 60px;
+}
+.AboutUs-discreption-info {
+  display: flex;
+  height: 120px;
+  gap: 80px;
+}
+.AboutUs-discreption-info-p {
+  font-family: "Thin";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23.8px;
+  text-align: left;
+  width: 28.57vw;
+  word-spacing: 0.13vw;
+}
+.AboutUs-discreption-button {
+  color: #fff;
+  background-color: #222733;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 19px 2.8vw;
+  margin-top: 60px;
+  word-spacing: 0.1vw;
+}
+.AboutUs-discreption-button:hover {
+  color: #222733;
+  background-color: #fff;
+  border: 2px solid #222733;
+}
+.AboutUs-stats {
+  display: flex;
+  margin-top: 80px;
+}
+.AboutUs-stats-stat1 {
+  margin-right: 9vw;
+  display: block;
+  width: 170px;
+  letter-spacing: 0.02vw;
+}
+.AboutUs-stats-stat2 {
+  margin-right: 9.6vw;
+  display: block;
+  width: 162px;
+  letter-spacing: 0.02vw;
+}
+.AboutUs-stats-stat3 {
+  margin-right: 5.556vw;
+  display: block;
+  width: 220px;
+  word-spacing: 0.1vw;
+}
+.AboutUs-stats-stat4 {
+  width: 208px;
+  word-spacing: 0.1vw;
+}
+.AboutUs-stats-stat-digital__plus {
+  display: flex;
+  gap: 1.11vw;
+}
+.AboutUs .stat-digital {
+  font-family: "Lab Grotesque Thin";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 52.8px;
+  color: #222733;
+}
+.AboutUs .stat-plus {
+  font-family: "Lab Grotesque Thin";
+  color: #545E76;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+  margin-bottom: 9px;
+}
+.AboutUs .stat-p {
+  font-family: "Thin";
+  color: #222733;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.TypesOfCatering {
+  width: 100%;
+  height: 676px;
+  background-image: url(../Pictures/TypesOfCatering.png);
+  background-size: cover;
+  display: flex;
+  gap: 13.06vw;
+  flex-wrap: wrap;
+}
+.TypesOfCatering-title {
+  font-family: "Thin";
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  margin-top: 133px;
+  margin-left: 9.03vw;
+  letter-spacing: 0.03vw;
+}
+.TypesOfCatering-info {
+  padding-top: 120px;
+}
+.TypesOfCatering-info-h2 {
+  font-family: "Regular";
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 57vw;
+  letter-spacing: 0.08vw;
+}
+.TypesOfCatering-info-p {
+  font-family: "Thin";
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23.8px;
+  width: 61.11vw;
+  margin-top: 20px;
+  letter-spacing: 0.012vw;
+}
+.TypesOfCatering-cateringDishes {
+  display: flex;
+  height: 496px;
+  width: 81.94vw;
+  background-color: #fff;
+  margin: 0 9.02vw;
+  margin-top: -83px;
+  box-shadow: 28px 24px 60px 0px #1F2F551F;
+  justify-content: space-between;
+}
+.TypesOfCatering-cateringDishes-info {
+  margin-top: 80px;
+  margin-left: 4.72vw;
+}
+.TypesOfCatering-cateringDishes-info-h3 {
+  font-family: "Regular";
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  letter-spacing: 0.08vw;
+}
+.TypesOfCatering-cateringDishes-info-price {
+  font-family: "Thin";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 16px;
+  letter-spacing: 0.02vw;
+}
+.TypesOfCatering-cateringDishes-info-infoP {
+  font-family: "Light";
+  width: 344px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 68px;
+}
+.TypesOfCatering-cateringDishes-info-arrow {
+  margin-top: 32px;
+  display: flex;
+  gap: 8px;
+}
+
+.Chef {
+  margin-top: 372px;
+  margin-left: 8.78vw;
+  margin-right: 8.78vw;
+  width: 82.43vw;
+  display: flex;
+}
+.Chef-img {
+  margin-top: 20px;
+}
+.Chef-info {
+  margin-top: 20px;
+  margin-left: 6.9vw;
+}
+.Chef-info-quote {
+  margin-top: 77px;
+  font-family: "Regular";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 607px;
+}
+.Chef-info-IvanVasil {
+  margin-top: 119px;
+}
+.Chef-info-IvanVasil-chef {
+  font-family: "Thin";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  letter-spacing: 0.012vw;
+}
+.Chef-info-IvanVasil-name {
+  font-family: "Regular";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 12px;
+  letter-spacing: 0.04vw;
+}
+
+.ChefVideo {
+  margin-top: 160px;
+  width: 100%;
+}
+
+.WhyUs {
+  margin: 137px 9.03vw 0 9.03vw;
+}
+.WhyUs-title {
+  display: flex;
+  gap: 15.5vw;
+  margin-left: 5px;
+}
+.WhyUs-title-p {
+  font-family: "Thin";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 137px;
+  letter-spacing: 0.015vw;
+}
+.WhyUs-title-h2 {
+  font-family: "Regular";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: -1px;
+  letter-spacing: 0.1vw;
+}
+.WhyUs-info {
+  margin-top: 100px;
+  justify-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  row-gap: 68px;
+}
+.WhyUs-info-section {
+  width: 380px;
+}
+.WhyUs-info-section-p {
+  margin-top: 16px;
+  font-family: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Clients {
+  margin-top: 140px;
+  width: 1440px;
+  background-image: url(../Pictures/clients.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Clients-section {
+  display: flex;
+}
+.Clients-title {
+  font-family: "Thin";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-top: 172px;
+  margin-left: 8.68vw;
+  color: #222733;
+  letter-spacing: 0.03vw;
+}
+.Clients-ourClients {
+  margin-left: 17.22vw;
+  padding-top: 160px;
+  margin-right: 9.72vw;
+}
+.Clients-ourClients-h2 {
+  font-family: "Regular";
+  color: #222733;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  letter-spacing: 0.09vw;
+}
+.Clients-ourClients-logo {
+  display: flex;
+  margin-top: 60px;
+}
+.Clients-ourClients-logo-img1 {
+  margin-right: 3.472vw;
+  margin-top: 15px;
+  height: 51px;
+}
+.Clients-ourClients-logo-img2 {
+  width: 226.45px;
+  height: 36.97px;
+  margin-top: 19px;
+}
+.Clients-ourClients-logo-img3 {
+  width: 162px;
+  height: 44px;
+  margin-left: 45px;
+  margin-top: 16px;
+}
+.Clients-ourClients-logo-img4 {
+  width: 116px;
+  height: 61px;
+  margin-left: 48px;
+}
+.Clients-ourClients-info {
+  margin-top: 60px;
+  width: 61.1vw;
+  font-family: "Light";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Clients-slider {
+  margin-left: 9.03vw;
+  margin-top: 8.35vw;
+  overflow: hidden;
+}
+.Clients-slider-slides {
+  display: flex;
+  gap: 4.17vw;
+  flex-wrap: nowrap;
+}
+.Clients-slider-slides-slide-date_div {
+  background-color: #545E761F;
+  border-radius: 50px;
+  margin-top: 1.9vw;
+  margin-bottom: 1.666vw;
+  display: inline-block;
+}
+.Clients-slider-slides-slide-date {
+  padding: 0.556vw 1.111vw;
+  font-family: "Thin";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  word-spacing: 0.08vw;
+}
+.Clients-slider-slides-slide-place {
+  font-family: "Medium";
+  color: #222733;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 1.666vw;
+  word-spacing: 0.01vw;
+  letter-spacing: 0.02vw;
+}
+.Clients-slider-slides-slide-type {
+  font-family: "Thin";
+  color: #222733;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  letter-spacing: 0.02vw;
+}
+
+.Media {
+  margin-top: 7.45vw;
+  background-image: url(../Pictures/Media1.png);
+  background-color: #222733;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 741.1px;
+}
+.Media-title {
+  margin-top: 11.6vw;
+  margin-left: 9.03vw;
+  font-family: "Thin";
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 260px;
+  word-spacing: 0.05vw;
+}
+.Media-articles {
+  margin-top: 10.7vw;
+}
+.Media-articles-quote {
+  margin-left: 15.042vw;
+  margin-right: 9.583vw;
+}
+.Media-articles-quote-img {
+  margin-bottom: 40px;
+}
+.Media-articles-quote-text {
+  height: 192px;
+  font-family: "Medium";
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 0.8vw;
+  margin-left: -0.6vw;
+  display: none;
+}
+.Media-articles-quote-text.active {
+  display: block;
+}
+.Media-articles-journalAndArrows {
+  display: flex;
+  margin-right: 9.03vw;
+  justify-content: space-between;
+  margin-bottom: 10.8vw;
+  margin-left: 14.45vw;
+}
+.Media-articles-journalAndArrows-journal {
+  margin-top: 6.527vw;
+  width: 9.931vw;
+  height: 2.916vw;
+}
+.Media-articles-journalAndArrows-arrows {
+  margin-top: 5.625vw;
+  transition: transform 0.3s;
+}
+.Media-articles-journalAndArrows-arrows:hover {
+  transform: scale(1.1);
+}
+
+.EventAndContact {
+  background-color: #F3F5F8;
+  display: flex;
+}
+.EventAndContact-aboutEvent {
+  margin-top: 9.722vw;
+  margin-left: 9.03vw;
+}
+.EventAndContact-aboutEvent-variant {
+  display: flex;
+  gap: 2.777vw;
+}
+.EventAndContact-aboutEvent-variant-event {
+  display: flex;
+}
+.EventAndContact-aboutEvent-variant-event-p {
+  font-family: "Medium";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #222733;
+  margin-left: 1.389vw;
+  margin-top: 0.972vw;
+}
+.EventAndContact-aboutEvent-variant-contact {
+  display: flex;
+}
+.EventAndContact-aboutEvent-variant-contact-p {
+  font-family: "Medium";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #222733;
+  opacity: 50%;
+  margin-left: 1.389vw;
+  margin-top: 0.972vw;
+}
+.EventAndContact-aboutEvent-h3 {
+  font-family: Lab Grotesque;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #222733;
+  margin-top: 3.5vw;
+  letter-spacing: 0.04vw;
+}
+.EventAndContact-aboutEvent-form {
+  margin-top: 2.25vw;
+}
+.EventAndContact-aboutEvent-form-parametrs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-content textarea {
+  display: none;
+}
+.EventAndContact-aboutEvent-form-p {
+  font-family: "Thin";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #222733;
+  letter-spacing: 0.02vw;
+}
+.EventAndContact-aboutEvent-form-variaty {
+  margin-top: 1.388vw;
+}
+.EventAndContact-aboutEvent-form-variaty-div:hover {
+  display: inline-block;
+  background-color: #222733;
+  border-radius: 50px;
+  margin-right: 0.85vw;
+}
+.EventAndContact-aboutEvent-form-variaty-div:hover-p:hover {
+  font-family: "Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 0.972vw 1.666vw;
+}
+.EventAndContact-aboutEvent-form-variaty-div {
+  display: inline-block;
+  background-color: #545E761F;
+  border-radius: 50px;
+  margin-right: 0.85vw;
+}
+.EventAndContact-aboutEvent-form-variaty-div-p {
+  font-family: "Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 0.972vw 1.666vw;
+  color: #222733;
+}
+.EventAndContact-aboutEvent-form-parametrs {
+  margin-top: 2.22vw;
+  row-gap: 1.66vw;
+}
+.EventAndContact-aboutEvent-form-parametrs-container {
+  background-color: #FFFFFF;
+  width: 54.16vw;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.EventAndContact-aboutEvent-form-parametrs-container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 2.22vw;
+  padding-right: 2.22vw;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-content-div {
+  display: flex;
+  align-items: center;
+  gap: 1.11vw;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-content-p {
+  font-family: "Thin";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-content-div-p {
+  font-family: "Regular";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+  font-family: "Thin";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr-count {
+  font-family: "Regular";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr input {
+  -webkit-appearance: none;
+  background: transparent;
+  outline: none;
+  border-radius: 0px 0px 12px 12px;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  padding-bottom: 5px;
+  height: 20px;
+  border-radius: 50%;
+  background: #545e76;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 5px;
+  background: #545e76;
+  border-radius: 0px 0px 12px 12px;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr-text {
+  padding-top: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  gap: 30.34vw;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+  width: 173px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-limit {
+  display: flex;
+  justify-content: space-between;
+}
+.EventAndContact-aboutEvent-form-parametrs-container-limit-p {
+  font-family: "Regular";
+  color: #222733;
+  opacity: 50%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  margin-top: -13px;
+}
+.EventAndContact-aboutEvent-buttonAndNote {
+  margin-top: 3.05vw;
+  display: flex;
+  padding-bottom: 11.11vw;
+}
+.EventAndContact-aboutEvent-buttonAndNote-button {
+  background-color: #222733;
+  color: #fff;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  padding: 1.458vw 5.97vw;
+}
+.EventAndContact-aboutEvent-buttonAndNote-button:hover {
+  background-color: #fff;
+  color: #222733;
+  border: 2px solid #222733;
+}
+.EventAndContact-aboutEvent-buttonAndNote-p {
+  margin-left: 3.05vw;
+  font-family: "Thin";
+  color: #A0A3A9;
+  width: 29.305vw;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30.4px;
+  text-align: left;
+}
+.EventAndContact-aboutEvent-buttonAndNote-p a[href="Error404.html"] {
+  color: #A0A3A9;
+  font-family: "Thin";
+}
+.EventAndContact-aboutEvent-price {
+  margin-top: 22.22vw;
+  margin-left: 8.33vw;
+}
+.EventAndContact-aboutEvent-price-result-p {
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #A0A3A9;
+}
+.EventAndContact-aboutEvent-price-result-finalPrice {
+  font-family: "Medium";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #222733;
+  margin-top: 1.38vw;
+  margin-bottom: 0.833vw;
+}
+.EventAndContact-aboutEvent-price-result-priceOnHuman {
+  font-family: "Thin";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #222733;
+}
+.EventAndContact-aboutEvent-price-characteristics {
+  margin-top: 1.94vw;
+}
+.EventAndContact-aboutEvent-price-characteristics-format {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.47vw;
+  width: 19.44vw;
+}
+.EventAndContact-aboutEvent-price-characteristics-format-p {
+  font-family: "Regular";
+  color: #A0A3A9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.EventAndContact-aboutEvent-price-characteristics-format-var {
+  font-family: "Medium";
+  color: #222733;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.EventAndContact-aboutEvent-price-characteristics-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.47vw;
+  width: 19.44vw;
+  border-top: 1px solid #545E761F;
+  border-bottom: 1px solid #545E761F;
+}
+.EventAndContact-aboutEvent-price-characteristics-quantity-p {
+  font-family: "Regular";
+  color: #A0A3A9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.EventAndContact-aboutEvent-price-characteristics-quantity-var {
+  font-family: "Medium";
+  color: #222733;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.EventAndContact-aboutEvent-price-characteristics-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.47vw;
+  width: 19.44vw;
+}
+.EventAndContact-aboutEvent-price-characteristics-date-p {
+  font-family: "Regular";
+  color: #A0A3A9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.EventAndContact-aboutEvent-price-characteristics-date-var {
+  font-family: "Medium";
+  color: #222733;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+footer {
+  border-top: 1px solid #A0A3A9;
+  background-color: #fff;
+  display: flex;
+  height: 7.77vw;
+  padding-left: 9.03vw;
+  padding-right: 8.47vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-nordic {
+  margin-right: 2.77vw;
+  font-family: "Thin";
+  color: #222733;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+.contacts-tel {
+  margin-right: 2.77vw;
+  font-family: "Thin";
+  color: #222733;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+.contacts-mail {
+  font-family: "Thin";
+  color: #222733;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  gap: 1.38vw;
+}
+
+.logoMenu {
+  display: flex;
+}
+.logoMenu-logo {
+  margin-top: 1.1vw;
+  width: 150px;
+  height: 50px;
+  margin-left: 245px;
+  display: none;
+}
+
+.menu {
+  position: relative;
+  display: none;
+  margin-top: 20px;
+  margin-left: 203px;
+}
+.menu-a {
+  text-decoration: none;
+}
+.menu .hamburger {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  /* Выравнивание по правому краю */
+}
+.menu .hamburger .line {
+  height: 2px;
+  background-color: white;
+  width: 100%;
+  margin: 3px 0;
+  /* Добавляем расстояние между линиями */
+}
+.menu .hamburger .line.short {
+  width: 70%;
+  /* Укороченная линия */
+}
+.menu .submenu {
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: -70px;
+  width: 160px;
+  background-color: #fff;
+  border: 1px solid #222733;
+  z-index: 1000;
+  margin-top: 5px;
+  padding: 0;
+  list-style-type: none;
+  border-radius: 10%;
+}
+.menu .submenu .submenu-item {
+  padding: 10px;
+  color: #222733;
+  position: relative;
+  list-style-type: none;
+  font-family: "Regular";
+}
+.menu .submenu .submenu-item:hover {
+  background-color: #222733;
+}
+.menu .submenu .submenu-item .subsubmenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  opacity: 100%;
+  border: 1px solid #222733;
+  padding: 0;
+  list-style-type: none;
+  color: #222733;
+  border-radius: 10%;
+}
+.menu .submenu .submenu-item .subsubmenu:hover {
+  display: block;
+}
+.menu .submenu .submenu-item:hover .subsubmenu {
+  display: block;
+}
+.menu:hover .submenu {
+  display: block;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  header {
+    background-image: url("../Pictures/21.09 1.png");
+    background-size: cover;
+    padding: 32px 9.02vw 120px 9.02vw;
+  }
+
+  .header {
+    color: white;
+  }
+  .header-information {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-info {
+    display: flex;
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.22vw;
+  }
+  .header-contacts-tel {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts-mail {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-wrapper-logo {
+    margin-top: 1.1vw;
+    width: 10.76vw;
+    height: 3.26vw;
+  }
+  .header-wrapper-menu {
+    margin-top: 2.71vw;
+    color: white;
+    display: flex;
+    gap: 2.78vw;
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+  }
+  .header-content {
+    margin-top: 19.79vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .header-content-geetings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.38vw;
+    justify-content: space-between;
+  }
+  .header-content-geetings-message {
+    display: flex;
+    flex-direction: column;
+    gap: 1.11vw;
+  }
+  .header-content-geetings-message p {
+    font-family: "Thin";
+    font-size: 0.729vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    word-spacing: 0.4vw;
+  }
+  .header-content-geetings-message h1 {
+    color: #fff;
+    font-family: "Medium";
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 72px;
+  }
+  .header-content-geetings-comment {
+    font-family: "Light";
+    font-size: 0.94vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-spacing: 0.1vw;
+  }
+  .header-content-action {
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    margin-left: 2.08vw;
+    margin-top: 50px;
+  }
+  .header-content-action-top50 {
+    width: 16.875vw;
+    height: 4.03vw;
+    display: flex;
+    margin-left: 1.875vw;
+  }
+  .header-content-action-button {
+    font-family: "Regular";
+    background: #FFFFFF;
+    color: #222733;
+    width: 19.4vw;
+    height: 4.17vw;
+    display: flex;
+    white-space: nowrap;
+    padding: 12px 48px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+    margin-top: 4px;
+  }
+
+  .AboutUs {
+    margin: 140px 9.03vw;
+  }
+  .AboutUs-title {
+    display: flex;
+    gap: 18.33vw;
+    white-space: nowrap;
+  }
+  .AboutUs-title-p {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 12px;
+  }
+  .AboutUs-title-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 32px;
+    margin-right: 0.85vw;
+    letter-spacing: 0.087vw;
+    width: 625px;
+    white-space: wrap;
+  }
+  .AboutUs-discreption {
+    width: 61.11vw;
+    margin-left: 20.83vw;
+    margin-top: 60px;
+  }
+  .AboutUs-discreption-info {
+    display: flex;
+    height: 120px;
+    gap: 70px;
+  }
+  .AboutUs-discreption-info-p {
+    font-family: "Thin";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 23.8px;
+    text-align: left;
+    width: 400px;
+    word-spacing: 0.13vw;
+  }
+  .AboutUs-discreption-button {
+    color: #fff;
+    background-color: #222733;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 19px 2.8vw;
+    margin-top: 60px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats {
+    display: flex;
+    margin-top: 80px;
+  }
+  .AboutUs-stats-stat1 {
+    margin-right: 9vw;
+    display: block;
+    width: 160px;
+    letter-spacing: 0.02vw;
+  }
+  .AboutUs-stats-stat2 {
+    margin-right: 9.6vw;
+    display: block;
+    width: 152px;
+    letter-spacing: 0.02vw;
+  }
+  .AboutUs-stats-stat3 {
+    margin-right: 5.556vw;
+    display: block;
+    width: 210px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats-stat4 {
+    width: 188px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats-stat-digital__plus {
+    display: flex;
+    gap: 1.11vw;
+  }
+  .AboutUs .stat-digital {
+    font-family: "Lab Grotesque Thin";
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 52.8px;
+    color: #222733;
+  }
+  .AboutUs .stat-plus {
+    font-family: "Lab Grotesque Thin";
+    color: #545E76;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 9px;
+  }
+  .AboutUs .stat-p {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 12px;
+  }
+
+  .TypesOfCatering {
+    width: 100%;
+    height: 676px;
+    background-image: url(../Pictures/TypesOfCatering.png);
+    background-size: cover;
+    display: flex;
+    gap: 13.06vw;
+    flex-wrap: wrap;
+  }
+  .TypesOfCatering-title {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-top: 133px;
+    margin-left: 9.03vw;
+    letter-spacing: 0.03vw;
+  }
+  .TypesOfCatering-info {
+    padding-top: 120px;
+  }
+  .TypesOfCatering-info-h2 {
+    font-family: "Regular";
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    width: 62vw;
+    letter-spacing: 0.08vw;
+  }
+  .TypesOfCatering-info-p {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 23.8px;
+    width: 61.11vw;
+    margin-top: 20px;
+    letter-spacing: 0.012vw;
+  }
+  .TypesOfCatering-cateringDishes {
+    display: flex;
+    height: 466px;
+    width: 82%;
+    background-color: #fff;
+    margin-top: -83px;
+    box-shadow: 28px 24px 60px 0px #1F2F551F;
+    margin-left: 50px;
+  }
+  .TypesOfCatering-cateringDishes-info {
+    margin-top: 60px;
+    margin-left: 55px;
+  }
+  .TypesOfCatering-cateringDishes-info-h3 {
+    font-family: "Regular";
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.08vw;
+  }
+  .TypesOfCatering-cateringDishes-info-price {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 16px;
+    letter-spacing: 0.02vw;
+  }
+  .TypesOfCatering-cateringDishes-info-infoP {
+    font-family: "Light";
+    width: 250px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 65px;
+    margin-right: 15px;
+  }
+  .TypesOfCatering-cateringDishes-info-arrow {
+    margin-top: 32px;
+    display: flex;
+    gap: 8px;
+  }
+  .TypesOfCatering-cateringDishes-drinks {
+    background-image: url(../Pictures/chef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+  }
+
+  .Chef {
+    margin-top: 302px;
+    justify-content: center;
+    width: 82.43%;
+    display: flex;
+  }
+  .Chef-img {
+    margin-top: 20px;
+    width: 441px;
+  }
+  .Chef-info {
+    margin-top: 20px;
+    margin-left: 6.9vw;
+  }
+  .Chef-info-quote {
+    margin-top: 77px;
+    font-family: "Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 437px;
+  }
+  .Chef-info-IvanVasil {
+    margin-top: 160px;
+  }
+  .Chef-info-IvanVasil-chef {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.012vw;
+  }
+  .Chef-info-IvanVasil-name {
+    font-family: "Regular";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.04vw;
+  }
+
+  .ChefVideo {
+    margin-top: 160px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .WhyUs {
+    margin: 137px 9.03vw 0 9.03vw;
+  }
+  .WhyUs-title {
+    display: flex;
+    gap: 13.5vw;
+    margin-left: 5px;
+  }
+  .WhyUs-title-p {
+    font-family: "Thin";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 137px;
+    letter-spacing: 0.015vw;
+    white-space: nowrap;
+  }
+  .WhyUs-title-h2 {
+    font-family: "Regular";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: -1px;
+    letter-spacing: 0.1vw;
+    display: inline;
+  }
+  .WhyUs-info {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    row-gap: 48px;
+    justify-content: center;
+  }
+  .WhyUs-info-section {
+    width: 380px;
+  }
+  .WhyUs-info-section-img {
+    width: 70px;
+  }
+  .WhyUs-info-section-p {
+    margin-top: 14px;
+    font-family: "Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .Clients {
+    margin-top: 140px;
+    width: 100%;
+    background-image: url(../Pictures/clients.png);
+    background-size: 1280px;
+    background-repeat: no-repeat;
+  }
+  .Clients-section {
+    display: flex;
+    width: 1024px;
+  }
+  .Clients-title {
+    font-family: "Thin";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 172px;
+    margin-left: 8.68vw;
+    color: #222733;
+    letter-spacing: 0.03vw;
+  }
+  .Clients-ourClients {
+    margin-left: 110px;
+    padding-top: 160px;
+    margin-right: 9.72vw;
+  }
+  .Clients-ourClients-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.09vw;
+    max-width: 750px;
+  }
+  .Clients-ourClients-logo {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 100px;
+  }
+  .Clients-ourClients-logo-img1 {
+    margin-right: 0;
+    margin-top: 15px;
+    height: 51px;
+  }
+  .Clients-ourClients-logo-img2 {
+    width: 226.45px;
+    height: 36.97px;
+    margin-top: 19px;
+    margin-left: 30px;
+  }
+  .Clients-ourClients-logo-img3 {
+    width: 162px;
+    height: 44px;
+    margin-left: 10px;
+    margin-top: 16px;
+  }
+  .Clients-ourClients-logo-img4 {
+    width: 116px;
+    height: 61px;
+    margin-left: 89px;
+  }
+  .Clients-ourClients-info {
+    margin-top: 60px;
+    width: 61.1vw;
+    font-family: "Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .Clients-slider {
+    margin-left: 9.03vw;
+    margin-top: 8.35vw;
+    overflow: hidden;
+  }
+  .Clients-slider-slides {
+    display: flex;
+    gap: 4.17vw;
+    flex-wrap: nowrap;
+  }
+  .Clients-slider-slides-slide-img1 {
+    width: 540px;
+  }
+  .Clients-slider-slides-slide-img2 {
+    width: 420px;
+  }
+  .Clients-slider-slides-slide-img3 {
+    width: 505px;
+  }
+  .Clients-slider-slides-slide-img4 {
+    width: 440px;
+  }
+  .Clients-slider-slides-slide-date_div {
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-top: 1.9vw;
+    margin-bottom: 1.666vw;
+    display: inline-block;
+  }
+  .Clients-slider-slides-slide-date {
+    padding: 0.556vw 1.111vw;
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    word-spacing: 0.08vw;
+  }
+  .Clients-slider-slides-slide-place {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 1.666vw;
+    word-spacing: 0.01vw;
+    letter-spacing: 0.02vw;
+  }
+  .Clients-slider-slides-slide-type {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.02vw;
+  }
+
+  .Media {
+    height: auto;
+    margin-top: 7.45vw;
+    background-image: url(../Pictures/Media1.png);
+    background-color: #222733;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+  .Media-title {
+    margin-top: 11.6vw;
+    margin-left: 9.03vw;
+    font-family: "Thin";
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    width: 270px;
+    word-spacing: 0.05vw;
+    white-space: none;
+  }
+  .Media-articles {
+    margin-top: 10.7vw;
+  }
+  .Media-articles-quote {
+    margin-left: 15.042vw;
+    margin-right: 9.583vw;
+  }
+  .Media-articles-quote-img {
+    margin-bottom: 40px;
+  }
+  .Media-articles-quote-text {
+    height: 240px;
+    font-family: "Medium";
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0.8vw;
+    margin-left: -0.6vw;
+  }
+  .Media-articles-journalAndArrows {
+    display: flex;
+    margin-right: 9.03vw;
+    justify-content: space-between;
+    margin-bottom: 10.8vw;
+    margin-left: 14.45vw;
+  }
+  .Media-articles-journalAndArrows-journal {
+    margin-top: 6.527vw;
+    width: 9.931vw;
+    height: 2.916vw;
+  }
+  .Media-articles-journalAndArrows-arrows {
+    margin-top: 5.625vw;
+  }
+
+  .EventAndContact {
+    background-color: #F3F5F8;
+    display: flex;
+  }
+  .EventAndContact-aboutEvent {
+    margin-top: 9.722vw;
+    margin-left: 9.03vw;
+  }
+  .EventAndContact-aboutEvent-variant {
+    display: flex;
+    gap: 2.777vw;
+  }
+  .EventAndContact-aboutEvent-variant-event {
+    display: flex;
+  }
+  .EventAndContact-aboutEvent-variant-event-p {
+    font-family: "Medium";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+  }
+  .EventAndContact-aboutEvent-variant-contact {
+    display: flex;
+  }
+  .EventAndContact-aboutEvent-variant-contact-p {
+    font-family: "Medium";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    opacity: 50%;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+  }
+  .EventAndContact-aboutEvent-h3 {
+    font-family: Lab Grotesque;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 3.5vw;
+    letter-spacing: 0.04vw;
+  }
+  .EventAndContact-aboutEvent-form {
+    margin-top: 2.25vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content textarea {
+    display: none;
+  }
+  .EventAndContact-aboutEvent-form-p {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    letter-spacing: 0.02vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty {
+    margin-top: 1.388vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div:hover {
+    display: inline-block;
+    background-color: #222733;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div:hover-p:hover {
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0.972vw 1.666vw;
+    color: #fff;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div {
+    display: inline-block;
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div-p {
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0.972vw 1.666vw;
+    color: #222733;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    margin-top: 2.22vw;
+    row-gap: 1.66vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container {
+    background-color: #FFFFFF;
+    width: 54.16vw;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div {
+    display: flex;
+    align-items: center;
+    gap: 1.11vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-p {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div-p {
+    font-family: "Regular";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-count {
+    font-family: "Regular";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input {
+    -webkit-appearance: none;
+    background: transparent;
+    outline: none;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    padding-bottom: 5px;
+    height: 20px;
+    border-radius: 50%;
+    background: #545e76;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+    background: #545e76;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text {
+    padding-top: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    gap: 27vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    width: 173px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit {
+    display: flex;
+    justify-content: space-between;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit-p {
+    font-family: "Regular";
+    color: #222733;
+    opacity: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: -13px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote {
+    margin-top: 3.05vw;
+    display: flex;
+    padding-bottom: 11.11vw;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-button {
+    background-color: #222733;
+    color: #fff;
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    padding: auto 60px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p {
+    font-family: "Thin";
+    color: #A0A3A9;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.4px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p a[href="../Error404.html"] {
+    color: #A0A3A9;
+    font-family: "Thin";
+  }
+  .EventAndContact-aboutEvent-price {
+    margin-top: 22.22vw;
+    margin-left: 8.33vw;
+  }
+  .EventAndContact-aboutEvent-price-result-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #A0A3A9;
+  }
+  .EventAndContact-aboutEvent-price-result-finalPrice {
+    font-family: "Medium";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 1.38vw;
+    margin-bottom: 0.833vw;
+  }
+  .EventAndContact-aboutEvent-price-result-priceOnHuman {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+  }
+  .EventAndContact-aboutEvent-price-characteristics {
+    margin-top: 1.94vw;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 19.44vw;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 19.44vw;
+    border-top: 1px solid #545E761F;
+    border-bottom: 1px solid #545E761F;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 19.44vw;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  footer {
+    border-top: 1px solid #A0A3A9;
+    background-color: #fff;
+    display: flex;
+    height: 7.77vw;
+    padding-left: 8.03vw;
+    padding-right: 7.47vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacts-nordic {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-tel {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-mail {
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+
+  .social {
+    display: flex;
+    gap: 1.38vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    background-image: url("../Pictures/21.09 1.png");
+    background-size: cover;
+    padding: 32px 9.02vw 100px 9.02vw;
+  }
+
+  .header {
+    color: white;
+  }
+  .header-information {
+    justify-content: space-between;
+    display: none;
+  }
+  .header-info {
+    display: flex;
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.22vw;
+  }
+  .header-contacts-tel {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts-mail {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-wrapper {
+    display: none;
+    justify-content: space-between;
+  }
+  .header-wrapper-logo {
+    margin-top: 1.1vw;
+    width: 140px;
+    height: 50px;
+    margin-left: 245px;
+    display: flex;
+  }
+  .header-wrapper-menu {
+    margin-top: 2.71vw;
+    color: white;
+    display: flex;
+    gap: 2.78vw;
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+  }
+  .header-content {
+    margin-top: 19.79vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-content-geetings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.38vw;
+  }
+  .header-content-geetings-message {
+    display: flex;
+    flex-direction: column;
+    gap: 1.11vw;
+    align-items: center;
+  }
+  .header-content-geetings-message p {
+    font-family: "Thin";
+    font-size: 0.729vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    word-spacing: 0.4vw;
+  }
+  .header-content-geetings-message h1 {
+    color: #fff;
+    font-family: "Medium";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 57px;
+    text-align: center;
+  }
+  .header-content-geetings-comment {
+    font-family: "Light";
+    font-size: 0.94vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-spacing: 0.1vw;
+    text-align: center;
+  }
+  .header-content-action {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .header-content-action-top50 {
+    width: 26.875vw;
+    height: 7.03vw;
+    display: flex;
+    margin-left: 0;
+  }
+  .header-content-action-button {
+    font-family: "Regular";
+    background: #FFFFFF;
+    color: #222733;
+    width: 19.4vw;
+    height: 4.17vw;
+    display: flex;
+    white-space: nowrap;
+    padding: 5px 28px 5px 28px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+    margin-top: 4px;
+  }
+
+  .logoMenu {
+    display: flex;
+  }
+  .logoMenu-logo {
+    margin-top: 1.1vw;
+    width: 150px;
+    height: 50px;
+    margin-left: 245px;
+    display: inline;
+    align-items: center;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .menu .hamburger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .menu .hamburger .line {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin: 3px 0;
+  }
+  .menu .hamburger .line.short {
+    width: 70%;
+  }
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #222733;
+    z-index: 1000;
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item {
+    padding: 10px;
+    color: #222733;
+    position: relative;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item:hover {
+    background-color: #fff;
+  }
+  .menu .submenu .submenu-item .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: #fff;
+    opacity: 100%;
+    border: 1px solid #222733;
+    color: #222733;
+    padding: 0;
+    list-style-type: none;
+    left: calc(-100% + 20px);
+  }
+  .menu .submenu .submenu-item .subsubmenu:hover {
+    display: block;
+  }
+  .menu .submenu .submenu-item:hover .subsubmenu {
+    display: block;
+  }
+  .menu:hover .submenu {
+    display: block;
+  }
+
+  .AboutUs {
+    margin: 110px 9.03vw;
+  }
+  .AboutUs-title {
+    display: flex;
+    gap: 7vw;
+    white-space: nowrap;
+    flex-wrap: wrap;
+  }
+  .AboutUs-title-p {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 18px;
+  }
+  .AboutUs-title-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 30px;
+    margin-right: 0.85vw;
+    letter-spacing: 0.087vw;
+    width: 625px;
+    white-space: wrap;
+  }
+  .AboutUs-discreption {
+    width: 84vw;
+    margin-left: 0;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .AboutUs-discreption-info {
+    display: flex;
+    height: 120px;
+    gap: 40px;
+  }
+  .AboutUs-discreption-info-p {
+    font-family: "Thin";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    width: 400px;
+    word-spacing: 0.13vw;
+  }
+  .AboutUs-discreption-button {
+    color: #fff;
+    background-color: #222733;
+    font-family: "Regular";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 12px 3.8vw;
+    margin-top: 60px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats {
+    display: flex;
+    margin-top: 60px;
+  }
+  .AboutUs-stats-stat1 {
+    margin-right: 9vw;
+    display: block;
+    width: 160px;
+    letter-spacing: 0.02vw;
+  }
+  .AboutUs-stats-stat2 {
+    margin-right: 9.6vw;
+    display: block;
+    width: 152px;
+    letter-spacing: 0.02vw;
+  }
+  .AboutUs-stats-stat3 {
+    margin-right: 5.556vw;
+    display: block;
+    width: 210px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats-stat4 {
+    width: 188px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats-stat-digital__plus {
+    display: flex;
+    gap: 1.11vw;
+  }
+  .AboutUs .stat-digital {
+    font-family: "Lab Grotesque Thin";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 52.8px;
+    color: #222733;
+  }
+  .AboutUs .stat-plus {
+    font-family: "Lab Grotesque Thin";
+    color: #545E76;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 2px;
+  }
+  .AboutUs .stat-p {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .TypesOfCatering {
+    width: 100%;
+    height: 676px;
+    background-image: url(../Pictures/TypesOfCatering.png);
+    background-size: cover;
+    display: flex;
+    gap: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .TypesOfCatering-title {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-top: 93px;
+    margin-left: 9.03vw;
+    letter-spacing: 0.03vw;
+  }
+  .TypesOfCatering-info {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .TypesOfCatering-info-h2 {
+    font-family: "Regular";
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 72vw;
+    letter-spacing: 0.08vw;
+    text-align: center;
+  }
+  .TypesOfCatering-info-p {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.8px;
+    width: 61.11vw;
+    margin-top: 20px;
+    letter-spacing: 0.012vw;
+    text-align: center;
+  }
+  .TypesOfCatering-cateringDishes {
+    display: flex;
+    height: 466px;
+    width: 470px;
+    background-color: #fff;
+    margin-top: 0;
+    box-shadow: 28px 24px 60px 0px #1F2F551F;
+    margin-left: 0;
+    flex-direction: column-reverse;
+    margin-top: 240px;
+    margin-left: 149px;
+  }
+  .TypesOfCatering-cateringDishes-info {
+    margin-top: 40px;
+    margin-left: 55px;
+  }
+  .TypesOfCatering-cateringDishes-info-h3 {
+    font-family: "Regular";
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.08vw;
+  }
+  .TypesOfCatering-cateringDishes-info-price {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.02vw;
+  }
+  .TypesOfCatering-cateringDishes-info-infoP {
+    font-family: "Light";
+    width: 340px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 35px;
+    margin-right: 15px;
+  }
+  .TypesOfCatering-cateringDishes-info-arrow {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 8px;
+  }
+  .TypesOfCatering-cateringDishes-drinks {
+    background-image: url(../Pictures/chef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+  }
+
+  .Chef {
+    margin-top: 562px;
+    align-items: center;
+    width: 82.43%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Chef-img {
+    margin-top: 20px;
+    width: 441px;
+  }
+  .Chef-info {
+    margin-top: -34px;
+    margin-left: 1.9vw;
+  }
+  .Chef-info-img {
+    margin-left: 20px;
+  }
+  .Chef-info-quote {
+    margin-top: 47px;
+    font-family: "Regular";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 437px;
+  }
+  .Chef-info-IvanVasil {
+    margin-top: 100px;
+  }
+  .Chef-info-IvanVasil-chef {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.012vw;
+  }
+  .Chef-info-IvanVasil-name {
+    font-family: "Regular";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.04vw;
+  }
+
+  .ChefVideo {
+    margin-top: 120px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .WhyUs {
+    margin: 117px 9.1vw 0 9.1vw;
+  }
+  .WhyUs-title {
+    display: flex;
+    gap: 0;
+    margin-left: 5px;
+    flex-direction: column;
+  }
+  .WhyUs-title-p {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 137px;
+    letter-spacing: 0.015vw;
+    white-space: nowrap;
+  }
+  .WhyUs-title-h2 {
+    font-family: "Regular";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 25px;
+    letter-spacing: 0.1vw;
+    display: inline;
+  }
+  .WhyUs-info {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    row-gap: 48px;
+    justify-content: center;
+  }
+  .WhyUs-info-section {
+    width: 580px;
+    display: flex;
+    gap: 70px;
+  }
+  .WhyUs-info-section-img {
+    width: 70px;
+    height: 70px;
+  }
+  .WhyUs-info-section-p {
+    margin-top: 0;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .Clients {
+    margin-top: 140px;
+    width: 100%;
+    background-image: url(../Pictures/clients.png);
+    background-size: 768px 1500px;
+    background-repeat: no-repeat;
+  }
+  .Clients-section {
+    display: flex;
+    width: 768px;
+    flex-direction: column;
+  }
+  .Clients-title {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 100px;
+    margin-left: 9.03vw;
+    color: #222733;
+    letter-spacing: 0.03vw;
+  }
+  .Clients-ourClients {
+    margin-left: 9.03vw;
+    padding-top: 40px;
+    margin-right: 9.03vw;
+  }
+  .Clients-ourClients-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.09vw;
+    width: 629px;
+  }
+  .Clients-ourClients-logo {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 100px;
+  }
+  .Clients-ourClients-logo-img1 {
+    margin-right: 0;
+    margin-top: 15px;
+    height: 51px;
+  }
+  .Clients-ourClients-logo-img2 {
+    width: 226.45px;
+    height: 36.97px;
+    margin-top: 19px;
+    margin-left: 30px;
+  }
+  .Clients-ourClients-logo-img3 {
+    width: 162px;
+    height: 44px;
+    margin-left: 10px;
+    margin-top: 16px;
+  }
+  .Clients-ourClients-logo-img4 {
+    width: 116px;
+    height: 61px;
+    margin-left: 89px;
+  }
+  .Clients-ourClients-info {
+    margin-top: 40px;
+    width: 629px;
+    font-family: "Light";
+    font-size: 18px;
+    font-weight: 280;
+    line-height: 24px;
+    text-align: left;
+  }
+  .Clients-slider {
+    margin-left: 9.03vw;
+    margin-top: 8.35vw;
+    overflow: hidden;
+  }
+  .Clients-slider-slides {
+    display: flex;
+    gap: 4.17vw;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .Clients-slider-slides-slide-img1 {
+    width: 400px;
+  }
+  .Clients-slider-slides-slide-img2 {
+    width: 280px;
+  }
+  .Clients-slider-slides-slide-img3 {
+    width: 385px;
+  }
+  .Clients-slider-slides-slide-img4 {
+    width: 300px;
+  }
+  .Clients-slider-slides-slide-date_div {
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-top: 1.9vw;
+    margin-bottom: 1.666vw;
+    display: inline-block;
+  }
+  .Clients-slider-slides-slide-date {
+    padding: 0.556vw 1.111vw;
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    word-spacing: 0.08vw;
+  }
+  .Clients-slider-slides-slide-place {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 1.666vw;
+    word-spacing: 0.01vw;
+    letter-spacing: 0.02vw;
+  }
+  .Clients-slider-slides-slide-type {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.02vw;
+  }
+
+  .Media {
+    height: auto;
+    margin-top: 0;
+    background-image: url(../Pictures/Media1.png);
+    background-color: #222733;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Media-title {
+    margin-top: 11.6vw;
+    margin-left: 11.5vw;
+    font-family: "Thin";
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    word-spacing: 0.05vw;
+    white-space: none;
+  }
+  .Media-articles {
+    margin-top: 9vw;
+  }
+  .Media-articles-quote {
+    margin-left: 11.5vw;
+    margin-right: 9.583vw;
+  }
+  .Media-articles-quote-img {
+    margin-bottom: 30px;
+  }
+  .Media-articles-quote-text {
+    font-family: "Medium";
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0.8vw;
+    margin-left: -0.6vw;
+  }
+  .Media-articles-journalAndArrows {
+    display: flex;
+    margin-right: 9.03vw;
+    justify-content: space-between;
+    margin-bottom: 10.8vw;
+    margin-left: 14.45vw;
+  }
+  .Media-articles-journalAndArrows-journal {
+    margin-top: 6.527vw;
+    width: 12.931vw;
+    height: 3.916vw;
+  }
+  .Media-articles-journalAndArrows-arrows {
+    margin-top: 5.625vw;
+  }
+  .Media-articles-journalAndArrows-arrowsImg {
+    width: 58px;
+  }
+
+  .EventAndContact {
+    background-color: #F3F5F8;
+    display: flex;
+    flex-direction: column;
+  }
+  .EventAndContact-aboutEvent {
+    margin-top: 9.722vw;
+    margin-left: 9.03vw;
+  }
+  .EventAndContact-aboutEvent-variant {
+    display: flex;
+    gap: 2.777vw;
+  }
+  .EventAndContact-aboutEvent-variant-event {
+    display: flex;
+  }
+  .EventAndContact-aboutEvent-variant-event-p {
+    font-family: "Medium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+  }
+  .EventAndContact-aboutEvent-variant-contact {
+    display: flex;
+  }
+  .EventAndContact-aboutEvent-variant-contact-p {
+    font-family: "Medium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    opacity: 50%;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+  }
+  .EventAndContact-aboutEvent-h3 {
+    font-family: Lab Grotesque;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 3.5vw;
+    letter-spacing: 0.04vw;
+  }
+  .EventAndContact-aboutEvent-form {
+    margin-top: 2.25vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content textarea {
+    display: none;
+  }
+  .EventAndContact-aboutEvent-form-p {
+    font-family: "Thin";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    letter-spacing: 0.02vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty {
+    margin-top: 1.388vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv {
+    display: inline-block;
+    background-color: #222733;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv-p {
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0.972vw 1.666vw;
+    color: #fff;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div {
+    display: inline-block;
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div-p {
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 1.272vw 2.666vw;
+    color: #222733;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    margin-top: 2.22vw;
+    row-gap: 1.66vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container {
+    background-color: #FFFFFF;
+    width: 83vw;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div {
+    display: flex;
+    align-items: center;
+    gap: 1.11vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-p {
+    font-family: "Thin";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div-p {
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    font-family: "Thin";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-count {
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input {
+    -webkit-appearance: none;
+    background: transparent;
+    outline: none;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    padding-bottom: 5px;
+    height: 20px;
+    border-radius: 50%;
+    background: #545e76;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+    background: #545e76;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text {
+    padding-top: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+    display: flex;
+    gap: 43.34vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    width: 173px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit {
+    display: flex;
+    justify-content: space-between;
+    width: 83vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit-p {
+    font-family: "Regular";
+    color: #222733;
+    opacity: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: -2px;
+    margin-bottom: 5px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote {
+    margin-top: 3.05vw;
+    display: flex;
+    padding-bottom: 0;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-button {
+    background-color: #222733;
+    color: #fff;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    padding: 1.458vw 5.97vw;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p {
+    margin-left: 3.05vw;
+    font-family: "Thin";
+    color: #A0A3A9;
+    width: 59.305vw;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30.4px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p a[href="../Error404.html"] {
+    color: #A0A3A9;
+    font-family: "Thin";
+  }
+  .EventAndContact-aboutEvent-price {
+    margin-top: 6.22vw;
+    margin-bottom: 6.22vw;
+    margin-left: 8.33vw;
+  }
+  .EventAndContact-aboutEvent-price-result {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .EventAndContact-aboutEvent-price-result-total {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .EventAndContact-aboutEvent-price-result-p {
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #A0A3A9;
+    margin-top: 0.78vw;
+  }
+  .EventAndContact-aboutEvent-price-result-finalPrice {
+    font-family: "Medium";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 0;
+    margin-bottom: 0.833vw;
+  }
+  .EventAndContact-aboutEvent-price-result-priceOnHuman {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+  }
+  .EventAndContact-aboutEvent-price-characteristics {
+    margin-top: 1.94vw;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    border-top: 1px solid #545E761F;
+    border-bottom: 1px solid #545E761F;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  footer {
+    border-top: 1px solid #A0A3A9;
+    background-color: #fff;
+    display: flex;
+    height: 7.77vw;
+    padding-left: 9.03vw;
+    padding-right: 8.47vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacts-nordic {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-tel {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-mail {
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+
+  .social {
+    display: flex;
+    gap: 1.38vw;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  header {
+    background-image: url("../Pictures/21.09 1.png");
+    background-size: cover;
+    padding: 32px 9.02vw 100px 9.02vw;
+  }
+
+  .header {
+    color: white;
+  }
+  .header-information {
+    justify-content: space-between;
+    display: none;
+  }
+  .header-info {
+    display: flex;
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.22vw;
+  }
+  .header-contacts-tel {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts-mail {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-wrapper {
+    display: none;
+    justify-content: space-between;
+  }
+  .header-wrapper-logo {
+    margin-top: 1.1vw;
+    width: 140px;
+    height: 50px;
+    margin-left: 245px;
+    display: flex;
+  }
+  .header-wrapper-menu {
+    margin-top: 2.71vw;
+    color: white;
+    display: flex;
+    gap: 2.78vw;
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+  }
+  .header-content {
+    margin-top: 19.79vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-content-geetings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.38vw;
+  }
+  .header-content-geetings-message {
+    display: flex;
+    flex-direction: column;
+    gap: 1.11vw;
+    align-items: center;
+  }
+  .header-content-geetings-message p {
+    font-family: "Thin";
+    font-size: 0.729vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    word-spacing: 0.4vw;
+  }
+  .header-content-geetings-message h1 {
+    color: #fff;
+    font-family: "Medium";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 57px;
+    text-align: center;
+  }
+  .header-content-geetings-comment {
+    font-family: "Light";
+    font-size: 0.94vw;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-spacing: 0.1vw;
+    text-align: center;
+  }
+  .header-content-action {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .header-content-action-top50 {
+    width: 60.875vw;
+    height: 15.03vw;
+    display: flex;
+    margin-left: 0;
+  }
+  .header-content-action-button {
+    font-family: "Regular";
+    background: #FFFFFF;
+    color: #222733;
+    display: flex;
+    white-space: nowrap;
+    padding: 10px 188px 30px 78px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+    margin-top: 4px;
+  }
+
+  .logoMenu {
+    display: flex;
+    gap: 15vw;
+  }
+  .logoMenu-logo {
+    margin-top: 1.1vw;
+    width: 150px;
+    height: 50px;
+    margin-left: 103px;
+    display: inline;
+    align-items: center;
+    align-items: flex-end;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0;
+    align-items: flex-end;
+  }
+  .menu .hamburger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .menu .hamburger .line {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin: 3px 0;
+  }
+  .menu .hamburger .line.short {
+    width: 70%;
+  }
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    left: -105px;
+    background-color: #fff;
+    border: 1px solid #222733;
+    z-index: 1000;
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item {
+    padding: 10px;
+    color: #222733;
+    position: relative;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item:hover {
+    background-color: #fff;
+  }
+  .menu .submenu .submenu-item .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: #fff;
+    opacity: 100%;
+    border: 1px solid #222733;
+    color: #222733;
+    padding: 0;
+    list-style-type: none;
+    left: calc(-100% + 20px);
+  }
+  .menu .submenu .submenu-item .subsubmenu:hover {
+    display: block;
+  }
+  .menu .submenu .submenu-item:hover .subsubmenu {
+    display: block;
+  }
+  .menu:hover .submenu {
+    display: block;
+  }
+
+  .AboutUs {
+    margin: 70px 9.03vw;
+  }
+  .AboutUs-title {
+    display: flex;
+    gap: 7vw;
+    white-space: wrap;
+    flex-wrap: wrap;
+  }
+  .AboutUs-title-p {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 18px;
+  }
+  .AboutUs-title-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 24px;
+    margin-right: 0.85vw;
+    letter-spacing: 0.087vw;
+    width: 348.25px;
+    white-space: wrap;
+  }
+  .AboutUs-discreption {
+    width: 84vw;
+    margin-left: 0;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .AboutUs-discreption-info {
+    display: flex;
+    height: 120px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .AboutUs-discreption-info-p {
+    font-family: "Thin";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    width: 348.25px;
+    word-spacing: 0.13vw;
+  }
+  .AboutUs-discreption-button {
+    display: none;
+    color: #fff;
+    background-color: #222733;
+    font-family: "Regular";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 12px 3.8vw;
+    margin-top: 150px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats {
+    display: flex;
+    margin-top: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .AboutUs-stats-stat1 {
+    margin-right: 70px;
+    display: block;
+    width: 120px;
+    letter-spacing: 0.02vw;
+    margin-left: -40px;
+  }
+  .AboutUs-stats-stat2 {
+    margin-right: 0;
+    display: block;
+    width: 102px;
+    letter-spacing: 0.02vw;
+  }
+  .AboutUs-stats-stat3 {
+    margin-right: 0;
+    display: block;
+    width: 130px;
+    word-spacing: 0.1vw;
+    margin-right: 60px;
+    margin-top: 15px;
+  }
+  .AboutUs-stats-stat4 {
+    width: 148px;
+    word-spacing: 0.1vw;
+    margin-top: 15px;
+  }
+  .AboutUs-stats-stat-digital__plus {
+    display: flex;
+    gap: 1.11vw;
+  }
+  .AboutUs .stat-digital {
+    font-family: "Lab Grotesque Thin";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52.8px;
+    color: #222733;
+  }
+  .AboutUs .stat-plus {
+    font-family: "Lab Grotesque Thin";
+    color: #545E76;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 2px;
+  }
+  .AboutUs .stat-p {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.4px;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .TypesOfCatering {
+    width: 100%;
+    height: 676px;
+    background-image: url(../Pictures/TypesOfCatering.png);
+    background-size: cover;
+    display: flex;
+    gap: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .TypesOfCatering-title {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-top: 93px;
+    margin-left: 9.03vw;
+    letter-spacing: 0.03vw;
+  }
+  .TypesOfCatering-info {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 9.03vw;
+  }
+  .TypesOfCatering-info-h2 {
+    font-family: "Regular";
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 72vw;
+    letter-spacing: 0.08vw;
+    text-align: left;
+  }
+  .TypesOfCatering-info-p {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.8px;
+    width: 90%;
+    margin-top: 20px;
+    letter-spacing: 0.012vw;
+    text-align: left;
+  }
+  .TypesOfCatering-cateringDishes {
+    display: flex;
+    height: 466px;
+    width: 90%;
+    background-color: #fff;
+    margin-top: 0;
+    box-shadow: 28px 24px 60px 0px #1F2F551F;
+    margin-left: 0;
+    flex-direction: column-reverse;
+    margin-top: 240px;
+    margin-left: 7%;
+  }
+  .TypesOfCatering-cateringDishes-info {
+    margin-top: 40px;
+    margin-left: 10%;
+  }
+  .TypesOfCatering-cateringDishes-info-h3 {
+    font-family: "Regular";
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.08vw;
+  }
+  .TypesOfCatering-cateringDishes-info-price {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.02vw;
+  }
+  .TypesOfCatering-cateringDishes-info-infoP {
+    font-family: "Light";
+    width: 310px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 35px;
+    margin-right: 15px;
+  }
+  .TypesOfCatering-cateringDishes-info-arrow {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+  }
+  .TypesOfCatering-cateringDishes-drinks {
+    background-image: url(../Pictures/chef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 382.5px;
+  }
+
+  .Chef {
+    margin-top: 562px;
+    align-items: center;
+    width: 82.43%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Chef-img {
+    margin-top: 20px;
+    width: 396px;
+  }
+  .Chef-info {
+    margin-top: -34px;
+    margin-left: 1.9vw;
+  }
+  .Chef-info-img {
+    margin-left: 30px;
+  }
+  .Chef-info-quote {
+    margin-top: 47px;
+    font-family: "Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    width: 396px;
+  }
+  .Chef-info-IvanVasil {
+    margin-top: 60px;
+  }
+  .Chef-info-IvanVasil-chef {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: 0.012vw;
+  }
+  .Chef-info-IvanVasil-name {
+    font-family: "Regular";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.04vw;
+  }
+
+  .ChefVideo {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .WhyUs {
+    margin: 97px 9.1vw 0 9.1vw;
+  }
+  .WhyUs-title {
+    display: flex;
+    gap: 0;
+    margin-left: 5px;
+    flex-direction: column;
+  }
+  .WhyUs-title-p {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 137px;
+    letter-spacing: 0.015vw;
+    white-space: nowrap;
+  }
+  .WhyUs-title-h2 {
+    font-family: "Regular";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 25px;
+    letter-spacing: 0.1vw;
+    display: inline;
+    width: 380px;
+  }
+  .WhyUs-info {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    row-gap: 48px;
+    justify-content: center;
+  }
+  .WhyUs-info-section {
+    width: 396px;
+    display: flex;
+    gap: 50px;
+  }
+  .WhyUs-info-section-img {
+    width: 70px;
+    height: 70px;
+  }
+  .WhyUs-info-section-p {
+    margin-top: 0;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .Clients {
+    margin-top: 140px;
+    width: 100%;
+    background-image: url(../Pictures/clients.png);
+    background-size: 425px 1500px;
+    background-repeat: no-repeat;
+  }
+  .Clients-section {
+    display: flex;
+    width: 425px;
+    flex-direction: column;
+  }
+  .Clients-title {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 100px;
+    margin-left: 9.03vw;
+    color: #222733;
+    letter-spacing: 0.03vw;
+  }
+  .Clients-ourClients {
+    margin-left: 9.03vw;
+    padding-top: 40px;
+    margin-right: 9.03vw;
+  }
+  .Clients-ourClients-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.09vw;
+    width: 380px;
+  }
+  .Clients-ourClients-logo {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 49.125px;
+    row-gap: 15px;
+    justify-content: center;
+  }
+  .Clients-ourClients-logo-img1 {
+    margin-right: 0;
+    margin-top: 0;
+    height: 51px;
+  }
+  .Clients-ourClients-logo-img2 {
+    width: 226.45px;
+    height: 36.97px;
+    margin-top: 19px;
+    margin-left: 0;
+  }
+  .Clients-ourClients-logo-img3 {
+    width: 162px;
+    height: 44px;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  .Clients-ourClients-logo-img4 {
+    width: 116px;
+    height: 61px;
+    margin-left: 0;
+  }
+  .Clients-ourClients-info {
+    margin-top: 40px;
+    width: 348.25px;
+    font-family: "Light";
+    font-size: 18px;
+    font-weight: 280;
+    line-height: 24px;
+    text-align: left;
+  }
+  .Clients-slider {
+    margin-left: 9.03vw;
+    margin-top: 8.35vw;
+    overflow: hidden;
+  }
+  .Clients-slider-slides {
+    display: flex;
+    gap: 4.17vw;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .Clients-slider-slides-slide-img1 {
+    width: 350px;
+  }
+  .Clients-slider-slides-slide-img2 {
+    width: 230px;
+  }
+  .Clients-slider-slides-slide-img3 {
+    width: 335px;
+  }
+  .Clients-slider-slides-slide-img4 {
+    width: 250px;
+  }
+  .Clients-slider-slides-slide-date_div {
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-top: 1.9vw;
+    margin-bottom: 1.666vw;
+    display: inline-block;
+  }
+  .Clients-slider-slides-slide-date {
+    padding: 0.556vw 1.111vw;
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    word-spacing: 0.08vw;
+  }
+  .Clients-slider-slides-slide-place {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 1.666vw;
+    word-spacing: 0.01vw;
+    letter-spacing: 0.02vw;
+  }
+  .Clients-slider-slides-slide-type {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.02vw;
+  }
+
+  .Media {
+    height: auto;
+    margin-top: 0;
+    background-image: url(../Pictures/Media1.png);
+    background-color: #222733;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Media-title {
+    margin-top: 11.6vw;
+    margin-left: 11.5vw;
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    word-spacing: 0.05vw;
+    white-space: none;
+  }
+  .Media-articles {
+    margin-top: 9vw;
+  }
+  .Media-articles-quote {
+    margin-left: 11.5vw;
+    margin-right: 9.583vw;
+  }
+  .Media-articles-quote-img {
+    margin-bottom: 30px;
+  }
+  .Media-articles-quote-text {
+    height: 266px;
+    font-family: "Medium";
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0.8vw;
+    margin-left: -0.6vw;
+  }
+  .Media-articles-journalAndArrows {
+    display: flex;
+    margin-right: 9.03vw;
+    justify-content: space-between;
+    margin-bottom: 10.8vw;
+    margin-left: 14.45vw;
+  }
+  .Media-articles-journalAndArrows-journal {
+    margin-top: 6.527vw;
+    width: 20.931vw;
+    height: 6.916vw;
+  }
+  .Media-articles-journalAndArrows-arrows {
+    margin-top: 5.625vw;
+  }
+  .Media-articles-journalAndArrows-arrowsImg {
+    width: 48px;
+  }
+
+  .EventAndContact {
+    background-color: #F3F5F8;
+    display: flex;
+    flex-direction: column;
+  }
+  .EventAndContact-aboutEvent {
+    margin-top: 9.722vw;
+    margin-left: 9.03vw;
+    margin-right: 9.03vw;
+  }
+  .EventAndContact-aboutEvent-variant {
+    display: flex;
+    gap: 28.777vw;
+  }
+  .EventAndContact-aboutEvent-variant-event {
+    display: flex;
+    width: 30px;
+  }
+  .EventAndContact-aboutEvent-variant-event-p {
+    font-family: "Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+  }
+  .EventAndContact-aboutEvent-variant-contact {
+    display: flex;
+  }
+  .EventAndContact-aboutEvent-variant-contact-p {
+    font-family: "Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    opacity: 50%;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-h3 {
+    font-family: Lab Grotesque;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 3.5vw;
+    letter-spacing: 0.04vw;
+  }
+  .EventAndContact-aboutEvent-form {
+    margin-top: 2.25vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content textarea {
+    display: none;
+  }
+  .EventAndContact-aboutEvent-form-p {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    letter-spacing: 0.02vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty {
+    margin-top: 1.388vw;
+    display: inline-flex;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv {
+    display: inline-block;
+    background-color: #222733;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv-p {
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 1.572vw 2.666vw;
+    color: #fff;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div {
+    display: inline-block;
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div-p {
+    font-family: "Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 2.272vw 3.666vw;
+    color: #222733;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    margin-top: 2.22vw;
+    row-gap: 1.66vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container {
+    background-color: #FFFFFF;
+    width: 83vw;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div {
+    display: flex;
+    align-items: center;
+    gap: 1.11vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-count {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input {
+    -webkit-appearance: none;
+    background: transparent;
+    outline: none;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    padding-bottom: 5px;
+    height: 20px;
+    border-radius: 50%;
+    background: #545e76;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+    background: #545e76;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text {
+    padding-top: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+    display: flex;
+    gap: 33.34vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    width: 173px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit {
+    display: flex;
+    justify-content: space-between;
+    width: 83vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit-p {
+    font-family: "Regular";
+    color: #222733;
+    opacity: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: -2px;
+    margin-bottom: 5px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote {
+    margin-top: 3.05vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-button {
+    width: 100%;
+    background-color: #222733;
+    color: #fff;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    padding: 1.458vw 5.97vw;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p {
+    margin-left: 0;
+    font-family: "Thin";
+    color: #A0A3A9;
+    width: 348.25px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30.4px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p a[href="../Error404.html"] {
+    color: #A0A3A9;
+    font-family: "Thin";
+  }
+  .EventAndContact-aboutEvent-price {
+    margin-top: 6.22vw;
+    margin-bottom: 6.22vw;
+    margin-left: 8.33vw;
+  }
+  .EventAndContact-aboutEvent-price-result {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .EventAndContact-aboutEvent-price-result-total {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .EventAndContact-aboutEvent-price-result-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #A0A3A9;
+    margin-top: 1.78vw;
+  }
+  .EventAndContact-aboutEvent-price-result-finalPrice {
+    font-family: "Medium";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 0;
+    margin-bottom: 0.833vw;
+  }
+  .EventAndContact-aboutEvent-price-result-priceOnHuman {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #222733;
+  }
+  .EventAndContact-aboutEvent-price-characteristics {
+    margin-top: 7.94vw;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    margin: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    border-top: 1px solid #545E761F;
+    border-bottom: 1px solid #545E761F;
+    padding: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    margin: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .none {
+    display: none;
+  }
+
+  footer {
+    border-top: 1px solid #A0A3A9;
+    background-color: #fff;
+    display: flex;
+    height: 7.77vw;
+    padding-left: 9.03vw;
+    padding-right: 8.47vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 7px;
+  }
+  .contacts-nordic {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-tel {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-mail {
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .social {
+    display: flex;
+    gap: 2.38vw;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  header {
+    background-image: url("../Pictures/21.09 1.png");
+    background-size: cover;
+    padding: 32px 9.02vw 80px 9.02vw;
+  }
+
+  .header {
+    color: white;
+  }
+  .header-information {
+    justify-content: space-between;
+    display: none;
+  }
+  .header-info {
+    display: flex;
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.22vw;
+  }
+  .header-contacts-tel {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts-mail {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-wrapper {
+    display: none;
+    justify-content: space-between;
+  }
+  .header-wrapper-logo {
+    margin-top: 1.1vw;
+    width: 140px;
+    height: 50px;
+    margin-left: 245px;
+    display: flex;
+  }
+  .header-wrapper-menu {
+    margin-top: 2.71vw;
+    color: white;
+    display: flex;
+    gap: 2.78vw;
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+  }
+  .header-content {
+    margin-top: 19.79vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-content-geetings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.38vw;
+  }
+  .header-content-geetings-message {
+    display: flex;
+    flex-direction: column;
+    gap: 1.11vw;
+    align-items: center;
+  }
+  .header-content-geetings-message p {
+    font-family: "Thin";
+    font-size: 0.729vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    word-spacing: 0.4vw;
+  }
+  .header-content-geetings-message h1 {
+    color: #fff;
+    font-family: "Medium";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 57px;
+    text-align: center;
+  }
+  .header-content-geetings-comment {
+    font-family: "Light";
+    font-size: 0.94vw;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-spacing: 0.1vw;
+    text-align: center;
+  }
+  .header-content-action {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .header-content-action-top50 {
+    width: 60.875vw;
+    height: 15.03vw;
+    display: flex;
+    margin-left: 0;
+  }
+  .header-content-action-button {
+    font-family: "Regular";
+    background: #FFFFFF;
+    color: #222733;
+    display: flex;
+    white-space: nowrap;
+    padding: 10px 188px 30px 78px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+    margin-top: 4px;
+  }
+
+  .logoMenu {
+    display: flex;
+    gap: 12%;
+  }
+  .logoMenu-logo {
+    margin-top: 1.1vw;
+    width: 150px;
+    height: 50px;
+    margin-left: 29%;
+    display: inline;
+    align-items: center;
+    align-items: flex-end;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0;
+    align-items: flex-end;
+  }
+  .menu .hamburger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .menu .hamburger .line {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin: 3px 0;
+  }
+  .menu .hamburger .line.short {
+    width: 70%;
+  }
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    left: -120px;
+    background-color: #fff;
+    border: 1px solid #222733;
+    z-index: 1000;
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item {
+    padding: 10px;
+    color: #222733;
+    position: relative;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item:hover {
+    background-color: #fff;
+  }
+  .menu .submenu .submenu-item .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: #fff;
+    opacity: 100%;
+    border: 1px solid #222733;
+    color: #222733;
+    padding: 0;
+    list-style-type: none;
+    left: calc(-100% + 20px);
+  }
+  .menu .submenu .submenu-item .subsubmenu:hover {
+    display: block;
+  }
+  .menu .submenu .submenu-item:hover .subsubmenu {
+    display: block;
+  }
+  .menu:hover .submenu {
+    display: block;
+  }
+
+  .AboutUs {
+    margin: 70px 9.03vw;
+  }
+  .AboutUs-title {
+    display: flex;
+    gap: 7vw;
+    white-space: wrap;
+    flex-wrap: wrap;
+  }
+  .AboutUs-title-p {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 18px;
+  }
+  .AboutUs-title-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 24px;
+    margin-right: 0.85vw;
+    letter-spacing: 0.087vw;
+    width: 348.25px;
+  }
+  .AboutUs-discreption {
+    width: 84vw;
+    margin-left: 0;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .AboutUs-discreption-info {
+    display: flex;
+    height: 120px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .AboutUs-discreption-info-p {
+    font-family: "Thin";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    width: 307px;
+    word-spacing: 0.13vw;
+  }
+  .AboutUs-discreption-button {
+    display: none;
+    color: #fff;
+    background-color: #222733;
+    font-family: "Regular";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 12px 3.8vw;
+    margin-top: 150px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats {
+    display: flex;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .AboutUs-stats-stat1 {
+    margin-right: 30px;
+    display: block;
+    width: 120px;
+    letter-spacing: 0.02vw;
+    margin-left: -40px;
+  }
+  .AboutUs-stats-stat2 {
+    margin-right: 0;
+    display: block;
+    width: 102px;
+    letter-spacing: 0.02vw;
+  }
+  .AboutUs-stats-stat3 {
+    margin-right: 0;
+    display: block;
+    width: 120px;
+    word-spacing: 0.1vw;
+    margin-right: 40px;
+    margin-top: 15px;
+  }
+  .AboutUs-stats-stat4 {
+    width: 138px;
+    word-spacing: 0.1vw;
+    margin-top: 15px;
+  }
+  .AboutUs-stats-stat-digital__plus {
+    display: flex;
+    gap: 1.11vw;
+  }
+  .AboutUs .stat-digital {
+    font-family: "Lab Grotesque Thin";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52.8px;
+    color: #222733;
+  }
+  .AboutUs .stat-plus {
+    font-family: "Lab Grotesque Thin";
+    color: #545E76;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 2px;
+  }
+  .AboutUs .stat-p {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.4px;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .TypesOfCatering {
+    width: 100%;
+    height: 676px;
+    background-image: url(../Pictures/TypesOfCatering.png);
+    background-size: cover;
+    display: flex;
+    gap: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .TypesOfCatering-title {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-top: 93px;
+    margin-left: 9.03vw;
+    letter-spacing: 0.03vw;
+  }
+  .TypesOfCatering-info {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 9.03vw;
+  }
+  .TypesOfCatering-info-h2 {
+    font-family: "Regular";
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 72vw;
+    letter-spacing: 0.08vw;
+    text-align: left;
+  }
+  .TypesOfCatering-info-p {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.8px;
+    width: 90%;
+    margin-top: 20px;
+    letter-spacing: 0.012vw;
+    text-align: left;
+  }
+  .TypesOfCatering-cateringDishes {
+    display: flex;
+    height: 466px;
+    width: 90%;
+    background-color: #fff;
+    margin-top: 0;
+    box-shadow: 28px 24px 60px 0px #1F2F551F;
+    margin-left: 0;
+    flex-direction: column-reverse;
+    margin-top: 240px;
+    margin-left: 5%;
+  }
+  .TypesOfCatering-cateringDishes-info {
+    margin-top: 40px;
+    margin-left: 10%;
+  }
+  .TypesOfCatering-cateringDishes-info-h3 {
+    font-family: "Regular";
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.08vw;
+  }
+  .TypesOfCatering-cateringDishes-info-price {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.02vw;
+  }
+  .TypesOfCatering-cateringDishes-info-infoP {
+    font-family: "Light";
+    width: 80%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 35px;
+    margin-right: 10%;
+  }
+  .TypesOfCatering-cateringDishes-info-arrow {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+  }
+  .TypesOfCatering-cateringDishes-drinks {
+    background-image: url(../Pictures/chef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 337.5px;
+  }
+
+  .Chef {
+    margin-top: 562px;
+    align-items: center;
+    width: 82.43%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Chef-img {
+    margin-top: 40px;
+    width: 90%;
+  }
+  .Chef-info {
+    margin-top: -34px;
+    margin-left: 0;
+  }
+  .Chef-info-img {
+    margin-left: 20%;
+  }
+  .Chef-info-quote {
+    margin-top: 47px;
+    font-family: "Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    width: 100%;
+  }
+  .Chef-info-IvanVasil {
+    margin-top: 60px;
+  }
+  .Chef-info-IvanVasil-chef {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: 0.012vw;
+  }
+  .Chef-info-IvanVasil-name {
+    font-family: "Regular";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.04vw;
+  }
+
+  .ChefVideo {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .WhyUs {
+    margin: 97px 9.1vw 0 9.1vw;
+  }
+  .WhyUs-title {
+    display: flex;
+    gap: 0;
+    margin-left: 5px;
+    flex-direction: column;
+  }
+  .WhyUs-title-p {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 137px;
+    letter-spacing: 0.015vw;
+    white-space: nowrap;
+  }
+  .WhyUs-title-h2 {
+    font-family: "Regular";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 25px;
+    letter-spacing: 0.1vw;
+    display: inline;
+    width: 326px;
+  }
+  .WhyUs-info {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    row-gap: 48px;
+    justify-content: center;
+  }
+  .WhyUs-info-section {
+    width: 396px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .WhyUs-info-section-img {
+    width: 70px;
+    height: 70px;
+  }
+  .WhyUs-info-section-p {
+    margin-top: 0;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .Clients {
+    margin-top: 140px;
+    width: 100%;
+    background-image: url(../Pictures/clients.png);
+    background-size: 425px 1500px;
+    background-repeat: no-repeat;
+  }
+  .Clients-section {
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+  }
+  .Clients-title {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 80px;
+    margin-left: 9.03vw;
+    color: #222733;
+    letter-spacing: 0.03vw;
+  }
+  .Clients-ourClients {
+    margin-left: 9.03vw;
+    padding-top: 40px;
+    margin-right: 9.03vw;
+  }
+  .Clients-ourClients-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.09vw;
+    width: 307.25px;
+  }
+  .Clients-ourClients-logo {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 29px;
+    row-gap: 15px;
+    justify-content: center;
+  }
+  .Clients-ourClients-logo-img1 {
+    margin-right: 0;
+    margin-top: 0;
+    height: 51px;
+  }
+  .Clients-ourClients-logo-img2 {
+    width: 226.45px;
+    height: 36.97px;
+    margin-top: 19px;
+    margin-left: 0;
+  }
+  .Clients-ourClients-logo-img3 {
+    width: 162px;
+    height: 44px;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  .Clients-ourClients-logo-img4 {
+    width: 116px;
+    height: 61px;
+    margin-left: 0;
+  }
+  .Clients-ourClients-info {
+    margin-top: 40px;
+    width: 307.28px;
+    font-family: "Light";
+    font-size: 18px;
+    font-weight: 280;
+    line-height: 24px;
+    text-align: left;
+  }
+  .Clients-slider {
+    margin-left: 9.03vw;
+    margin-top: 8.35vw;
+    overflow: hidden;
+  }
+  .Clients-slider-slides {
+    display: flex;
+    gap: 4.17vw;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .Clients-slider-slides-slide-img1 {
+    width: 280px;
+  }
+  .Clients-slider-slides-slide-img2 {
+    width: 160px;
+  }
+  .Clients-slider-slides-slide-img3 {
+    width: 265px;
+  }
+  .Clients-slider-slides-slide-img4 {
+    width: 180px;
+  }
+  .Clients-slider-slides-slide-date_div {
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-top: 1.9vw;
+    margin-bottom: 1.666vw;
+    display: inline-block;
+  }
+  .Clients-slider-slides-slide-date {
+    padding: 0.556vw 1.111vw;
+    font-family: "Thin";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    word-spacing: 0.08vw;
+  }
+  .Clients-slider-slides-slide-place {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 1.666vw;
+    word-spacing: 0.01vw;
+    letter-spacing: 0.02vw;
+  }
+  .Clients-slider-slides-slide-type {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.02vw;
+  }
+
+  .Media {
+    height: auto;
+    margin-top: 0;
+    background-image: url(../Pictures/Media1.png);
+    background-color: #222733;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Media-title {
+    margin-top: 11.6vw;
+    margin-left: 11.5vw;
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    word-spacing: 0.05vw;
+    white-space: none;
+  }
+  .Media-articles {
+    margin-top: 9vw;
+  }
+  .Media-articles-quote {
+    margin-left: 11.5vw;
+    margin-right: 9.583vw;
+  }
+  .Media-articles-quote-img {
+    margin-bottom: 30px;
+    width: 15%;
+  }
+  .Media-articles-quote-text {
+    height: 204px;
+    font-family: "Medium";
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0.8vw;
+    margin-left: -0.6vw;
+  }
+  .Media-articles-journalAndArrows {
+    display: flex;
+    margin-right: 9.03vw;
+    justify-content: space-between;
+    margin-bottom: 10.8vw;
+    margin-left: 10.45vw;
+  }
+  .Media-articles-journalAndArrows-journal {
+    margin-top: 6.527vw;
+    width: 18.931vw;
+    height: 5.916vw;
+  }
+  .Media-articles-journalAndArrows-arrows {
+    margin-top: 5.625vw;
+  }
+  .Media-articles-journalAndArrows-arrowsImg {
+    width: 40px;
+  }
+
+  .EventAndContact {
+    background-color: #F3F5F8;
+    display: flex;
+    flex-direction: column;
+  }
+  .EventAndContact-aboutEvent {
+    margin-top: 9.722vw;
+    margin-left: 9.03vw;
+    margin-right: 9.03vw;
+  }
+  .EventAndContact-aboutEvent-variant {
+    display: flex;
+    gap: 28.777vw;
+  }
+  .EventAndContact-aboutEvent-variant-event {
+    display: flex;
+    width: 30px;
+  }
+  .EventAndContact-aboutEvent-variant-event-p {
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+  }
+  .EventAndContact-aboutEvent-variant-contact {
+    display: flex;
+  }
+  .EventAndContact-aboutEvent-variant-contact-p {
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    opacity: 50%;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-h3 {
+    font-family: Lab Grotesque;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 3.5vw;
+    letter-spacing: 0.04vw;
+  }
+  .EventAndContact-aboutEvent-form {
+    margin-top: 2.25vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content textarea {
+    display: none;
+  }
+  .EventAndContact-aboutEvent-form-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    letter-spacing: 0.02vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty {
+    margin-top: 1.388vw;
+    display: inline-flex;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv {
+    display: inline-block;
+    background-color: #222733;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv-p {
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 1.572vw 2.666vw;
+    color: #fff;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div {
+    display: inline-block;
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 2.272vw 3.666vw;
+    color: #222733;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    margin-top: 3.22vw;
+    row-gap: 1.66vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container {
+    background-color: #FFFFFF;
+    width: 83vw;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div {
+    display: flex;
+    align-items: center;
+    gap: 1.11vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-count {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input {
+    -webkit-appearance: none;
+    background: transparent;
+    outline: none;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    padding-bottom: 5px;
+    height: 20px;
+    border-radius: 50%;
+    background: #545e76;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+    background: #545e76;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text {
+    padding-top: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+    display: flex;
+    gap: 23.34vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    width: 173px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit {
+    display: flex;
+    justify-content: space-between;
+    width: 83vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit-p {
+    font-family: "Regular";
+    color: #222733;
+    opacity: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: -2px;
+    margin-bottom: 5px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote {
+    margin-top: 3.05vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-button {
+    width: 100%;
+    background-color: #222733;
+    color: #fff;
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    padding: 1.458vw 5.97vw;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p {
+    margin-left: 0;
+    font-family: "Thin";
+    color: #A0A3A9;
+    width: 328.25px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p a[href="Error404.html"] {
+    color: #A0A3A9;
+    font-family: "Thin";
+  }
+  .EventAndContact-aboutEvent-price {
+    margin-top: 6.22vw;
+    margin-bottom: 6.22vw;
+    margin-left: 8.33vw;
+  }
+  .EventAndContact-aboutEvent-price-result {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .EventAndContact-aboutEvent-price-result-total {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .EventAndContact-aboutEvent-price-result-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #A0A3A9;
+    margin-top: 1.78vw;
+  }
+  .EventAndContact-aboutEvent-price-result-finalPrice {
+    font-family: "Medium";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 0;
+    margin-bottom: 0.833vw;
+  }
+  .EventAndContact-aboutEvent-price-result-priceOnHuman {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #222733;
+  }
+  .EventAndContact-aboutEvent-price-characteristics {
+    margin-top: 7.94vw;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    margin: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    border-top: 1px solid #545E761F;
+    border-bottom: 1px solid #545E761F;
+    padding: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    margin: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .none {
+    display: none;
+  }
+
+  footer {
+    border-top: 1px solid #A0A3A9;
+    background-color: #fff;
+    display: flex;
+    height: 7.77vw;
+    padding-left: 9.03vw;
+    padding-right: 8.47vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 7px;
+  }
+  .contacts-nordic {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-tel {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-mail {
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .social {
+    display: flex;
+    gap: 2.38vw;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  header {
+    background-image: url("../Pictures/21.09 1.png");
+    background-size: cover;
+    padding: 32px 9.02vw 80px 9.02vw;
+  }
+
+  .header {
+    color: white;
+  }
+  .header-information {
+    justify-content: space-between;
+    display: none;
+  }
+  .header-info {
+    display: flex;
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.22vw;
+  }
+  .header-contacts-tel {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-contacts-mail {
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .header-wrapper {
+    display: none;
+    justify-content: space-between;
+  }
+  .header-wrapper-logo {
+    margin-top: 1.1vw;
+    width: 140px;
+    height: 50px;
+    margin-left: 245px;
+    display: flex;
+  }
+  .header-wrapper-menu {
+    margin-top: 2.71vw;
+    color: white;
+    display: flex;
+    gap: 2.78vw;
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+  }
+  .header-content {
+    margin-top: 19.79vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-content-geetings {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3.38vw;
+  }
+  .header-content-geetings-message {
+    display: flex;
+    flex-direction: column;
+    gap: 3.11vw;
+    align-items: center;
+  }
+  .header-content-geetings-message p {
+    font-family: "Thin";
+    font-size: 0.729vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    word-spacing: 0.4vw;
+  }
+  .header-content-geetings-message h1 {
+    color: #fff;
+    font-family: "Medium";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+  }
+  .header-content-geetings-comment {
+    font-family: "Light";
+    font-size: 0.94vw;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    word-spacing: 0.1vw;
+    text-align: center;
+  }
+  .header-content-action {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .header-content-action-top50 {
+    width: 60.875vw;
+    height: 15.03vw;
+    display: flex;
+    margin-left: 0;
+  }
+  .header-content-action-button {
+    font-family: "Regular";
+    background: #FFFFFF;
+    color: #222733;
+    display: flex;
+    white-space: nowrap;
+    padding: 10px 188px 30px 78px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    word-spacing: 0.2vw;
+    margin-top: 4px;
+  }
+
+  .logoMenu {
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .logoMenu-logo {
+    margin-top: 1.1vw;
+    width: 150px;
+    height: 50px;
+    margin-left: 0;
+    display: inline;
+    align-items: center;
+    align-items: flex-end;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0;
+    align-items: flex-end;
+  }
+  .menu .hamburger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .menu .hamburger .line {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin: 3px 0;
+  }
+  .menu .hamburger .line.short {
+    width: 70%;
+  }
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    left: -110px;
+    background-color: #fff;
+    border: 1px solid #222733;
+    z-index: 1000;
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item {
+    padding: 10px;
+    color: #222733;
+    position: relative;
+    list-style-type: none;
+  }
+  .menu .submenu .submenu-item:hover {
+    background-color: #fff;
+  }
+  .menu .submenu .submenu-item .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: #fff;
+    opacity: 100%;
+    border: 1px solid #222733;
+    color: #222733;
+    padding: 0;
+    list-style-type: none;
+    left: calc(-100% + 20px);
+  }
+  .menu .submenu .submenu-item .subsubmenu:hover {
+    display: block;
+  }
+  .menu .submenu .submenu-item:hover .subsubmenu {
+    display: block;
+  }
+  .menu:hover .submenu {
+    display: block;
+  }
+
+  .AboutUs {
+    margin: 70px 7.03vw;
+  }
+  .AboutUs-title {
+    display: flex;
+    gap: 7vw;
+    white-space: wrap;
+    flex-wrap: wrap;
+  }
+  .AboutUs-title-p {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 18px;
+  }
+  .AboutUs-title-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 24px;
+    margin-right: 0.85vw;
+    letter-spacing: 0.087vw;
+    width: 275px;
+  }
+  .AboutUs-discreption {
+    width: 84vw;
+    margin-left: 0;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .AboutUs-discreption-info {
+    display: flex;
+    height: 120px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .AboutUs-discreption-info-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    width: 275px;
+    word-spacing: 0.13vw;
+  }
+  .AboutUs-discreption-button {
+    display: none;
+    color: #fff;
+    background-color: #222733;
+    font-family: "Regular";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 12px 3.8vw;
+    margin-top: 150px;
+    word-spacing: 0.1vw;
+  }
+  .AboutUs-stats {
+    display: flex;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .AboutUs-stats-stat1 {
+    margin-right: 0;
+    display: block;
+    width: 120px;
+    letter-spacing: 0.02vw;
+    margin-left: 0;
+  }
+  .AboutUs-stats-stat2 {
+    margin-right: 0;
+    display: block;
+    width: 102px;
+    letter-spacing: 0.02vw;
+  }
+  .AboutUs-stats-stat3 {
+    display: block;
+    width: 110px;
+    word-spacing: 0.1vw;
+    margin-right: 0;
+    margin-top: 15px;
+  }
+  .AboutUs-stats-stat4 {
+    width: 108px;
+    word-spacing: 0.1vw;
+    margin-top: 15px;
+  }
+  .AboutUs-stats-stat-digital__plus {
+    display: flex;
+    gap: 1.11vw;
+  }
+  .AboutUs .stat-digital {
+    font-family: "Lab Grotesque Thin";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52.8px;
+    color: #222733;
+  }
+  .AboutUs .stat-plus {
+    font-family: "Lab Grotesque Thin";
+    color: #545E76;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 2px;
+  }
+  .AboutUs .stat-p {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.4px;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .TypesOfCatering {
+    width: 100%;
+    height: 676px;
+    background-image: url(../Pictures/TypesOfCatering.png);
+    background-size: cover;
+    display: flex;
+    gap: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .TypesOfCatering-title {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-top: 93px;
+    margin-left: 9.03vw;
+    letter-spacing: 0.03vw;
+  }
+  .TypesOfCatering-info {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 9.03vw;
+  }
+  .TypesOfCatering-info-h2 {
+    font-family: "Regular";
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 275px;
+    letter-spacing: 0.08vw;
+    text-align: left;
+  }
+  .TypesOfCatering-info-p {
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.8px;
+    width: 272px;
+    margin-top: 20px;
+    letter-spacing: 0.012vw;
+    text-align: left;
+  }
+  .TypesOfCatering-cateringDishes {
+    display: flex;
+    height: 466px;
+    width: 90%;
+    background-color: #fff;
+    margin-top: 0;
+    box-shadow: 28px 24px 60px 0px #1F2F551F;
+    margin-left: 0;
+    flex-direction: column-reverse;
+    margin-top: 240px;
+    margin-left: 5%;
+  }
+  .TypesOfCatering-cateringDishes-info {
+    margin-top: 40px;
+    margin-left: 10%;
+  }
+  .TypesOfCatering-cateringDishes-info-h3 {
+    font-family: "Regular";
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.08vw;
+  }
+  .TypesOfCatering-cateringDishes-info-price {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.02vw;
+  }
+  .TypesOfCatering-cateringDishes-info-infoP {
+    font-family: "Light";
+    width: 80%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 35px;
+    margin-right: 10%;
+  }
+  .TypesOfCatering-cateringDishes-info-arrow {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+  }
+  .TypesOfCatering-cateringDishes-drinks {
+    background-image: url(../Pictures/chef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 288px;
+  }
+
+  .Chef {
+    margin-top: 582px;
+    align-items: center;
+    width: 82.43%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Chef-img {
+    margin-top: 80px;
+    width: 100%;
+  }
+  .Chef-info {
+    margin-top: -34px;
+    margin-left: 0;
+  }
+  .Chef-info-img {
+    margin-left: 10%;
+    width: 20%;
+  }
+  .Chef-info-quote {
+    margin-top: 47px;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    width: 100%;
+  }
+  .Chef-info-IvanVasil {
+    margin-top: 60px;
+  }
+  .Chef-info-IvanVasil-chef {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: 0.012vw;
+  }
+  .Chef-info-IvanVasil-name {
+    font-family: "Regular";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 12px;
+    letter-spacing: 0.04vw;
+  }
+
+  .ChefVideo {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .WhyUs {
+    margin: 97px 9.1vw 0 9.1vw;
+  }
+  .WhyUs-title {
+    display: flex;
+    gap: 0;
+    margin-left: 5px;
+    flex-direction: column;
+  }
+  .WhyUs-title-p {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 137px;
+    letter-spacing: 0.015vw;
+    white-space: nowrap;
+  }
+  .WhyUs-title-h2 {
+    font-family: "Regular";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 25px;
+    letter-spacing: 0.1vw;
+    display: inline;
+    width: 260px;
+  }
+  .WhyUs-info {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    row-gap: 48px;
+    justify-content: center;
+  }
+  .WhyUs-info-section {
+    width: 396px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .WhyUs-info-section-img {
+    width: 60px;
+    height: 60px;
+  }
+  .WhyUs-info-section-p {
+    margin-top: 0;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .Clients {
+    margin-top: 140px;
+    width: 100%;
+    background-image: url(../Pictures/clients.png);
+    background-size: 425px 1500px;
+    background-repeat: no-repeat;
+  }
+  .Clients-section {
+    display: flex;
+    width: 275px;
+    flex-direction: column;
+  }
+  .Clients-title {
+    font-family: "Thin";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    padding-top: 80px;
+    margin-left: 9.03vw;
+    color: #222733;
+    letter-spacing: 0.03vw;
+  }
+  .Clients-ourClients {
+    margin-left: 9.03vw;
+    padding-top: 40px;
+    margin-right: 9.03vw;
+  }
+  .Clients-ourClients-h2 {
+    font-family: "Regular";
+    color: #222733;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.09vw;
+    width: 275px;
+  }
+  .Clients-ourClients-logo {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 0;
+    row-gap: 15px;
+    justify-content: center;
+  }
+  .Clients-ourClients-logo-img1 {
+    margin-right: 0;
+    margin-top: 0;
+    height: 51px;
+  }
+  .Clients-ourClients-logo-img2 {
+    width: 226.45px;
+    height: 36.97px;
+    margin-top: 19px;
+    margin-left: 0;
+  }
+  .Clients-ourClients-logo-img3 {
+    width: 162px;
+    height: 44px;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  .Clients-ourClients-logo-img4 {
+    width: 116px;
+    height: 61px;
+    margin-left: 0;
+  }
+  .Clients-ourClients-info {
+    margin-top: 40px;
+    width: 275px;
+    font-family: "Light";
+    font-size: 14px;
+    font-weight: 280;
+    line-height: 24px;
+    text-align: left;
+  }
+  .Clients-slider {
+    margin-left: 9.03vw;
+    margin-top: 8.35vw;
+    overflow: hidden;
+  }
+  .Clients-slider-slides {
+    display: flex;
+    gap: 4.17vw;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .Clients-slider-slides-slide-img1 {
+    width: 280px;
+  }
+  .Clients-slider-slides-slide-img2 {
+    width: 160px;
+  }
+  .Clients-slider-slides-slide-img3 {
+    width: 265px;
+  }
+  .Clients-slider-slides-slide-img4 {
+    width: 180px;
+  }
+  .Clients-slider-slides-slide-date_div {
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-top: 1.9vw;
+    margin-bottom: 1.666vw;
+    display: inline-block;
+  }
+  .Clients-slider-slides-slide-date {
+    padding: 0.556vw 1.111vw;
+    font-family: "Thin";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    word-spacing: 0.08vw;
+  }
+  .Clients-slider-slides-slide-place {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 1.666vw;
+    word-spacing: 0.01vw;
+    letter-spacing: 0.02vw;
+  }
+  .Clients-slider-slides-slide-type {
+    font-family: "Thin";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: 0.02vw;
+  }
+
+  .Media {
+    height: auto;
+    margin-top: 0;
+    background-image: url(../Pictures/Media1.png);
+    background-color: #222733;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Media-title {
+    margin-top: 11.6vw;
+    margin-left: 11.5vw;
+    font-family: "Thin";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    word-spacing: 0.05vw;
+    white-space: none;
+  }
+  .Media-articles {
+    margin-top: 9vw;
+  }
+  .Media-articles-quote {
+    margin-left: 11.5vw;
+    margin-right: 9.583vw;
+  }
+  .Media-articles-quote-img {
+    margin-bottom: 30px;
+    width: 15%;
+  }
+  .Media-articles-quote-text {
+    height: 180px;
+    font-family: "Medium";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0.8vw;
+    margin-left: -0.6vw;
+  }
+  .Media-articles-journalAndArrows {
+    display: flex;
+    margin-right: 9.03vw;
+    justify-content: space-between;
+    margin-bottom: 10.8vw;
+    margin-left: 10.45vw;
+  }
+  .Media-articles-journalAndArrows-journal {
+    margin-top: 6.527vw;
+    width: 18.931vw;
+    height: 5.916vw;
+  }
+  .Media-articles-journalAndArrows-arrows {
+    margin-top: 5.625vw;
+  }
+  .Media-articles-journalAndArrows-arrowsImg {
+    width: 40px;
+  }
+
+  .EventAndContact {
+    background-color: #F3F5F8;
+    display: flex;
+    flex-direction: column;
+  }
+  .EventAndContact-aboutEvent {
+    margin-top: 9.722vw;
+    margin-left: 9.03vw;
+    margin-right: 9.03vw;
+  }
+  .EventAndContact-aboutEvent-variant {
+    display: flex;
+    gap: 28.777vw;
+  }
+  .EventAndContact-aboutEvent-variant-event {
+    display: flex;
+    width: 30px;
+  }
+  .EventAndContact-aboutEvent-variant-event-p {
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+  }
+  .EventAndContact-aboutEvent-variant-contact {
+    display: flex;
+    margin-left: 10px;
+  }
+  .EventAndContact-aboutEvent-variant-contact-p {
+    font-family: "Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #222733;
+    opacity: 50%;
+    margin-left: 1.389vw;
+    margin-top: 0.972vw;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-h3 {
+    font-family: Lab Grotesque;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 3.5vw;
+    letter-spacing: 0.04vw;
+  }
+  .EventAndContact-aboutEvent-form {
+    margin-top: 2.25vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content textarea {
+    display: none;
+  }
+  .EventAndContact-aboutEvent-form-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    letter-spacing: 0.02vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty {
+    margin-top: 1.388vw;
+    display: inline-flex;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv {
+    display: inline-block;
+    background-color: #222733;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-divActiv-p {
+    font-family: "Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 1.572vw 2.666vw;
+    color: #fff;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div {
+    display: inline-block;
+    background-color: #545E761F;
+    border-radius: 50px;
+    margin-right: 0.85vw;
+  }
+  .EventAndContact-aboutEvent-form-variaty-div-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 2.272vw 3.666vw;
+    color: #222733;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs {
+    margin-top: 3.22vw;
+    row-gap: 1.66vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container {
+    background-color: #FFFFFF;
+    width: 83vw;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div {
+    display: flex;
+    align-items: center;
+    gap: 1.11vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-content-div-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    font-family: "Thin";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-count {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 2.22vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input {
+    -webkit-appearance: none;
+    background: transparent;
+    outline: none;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    padding-bottom: 5px;
+    height: 20px;
+    border-radius: 50%;
+    background: #545e76;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr input::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+    background: #545e76;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text {
+    padding-top: 30px;
+    padding-left: 2.22vw;
+    padding-right: 2.22vw;
+    display: flex;
+    gap: 18.34vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-parametr-text-p {
+    width: 173px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit {
+    display: flex;
+    justify-content: space-between;
+    width: 83vw;
+  }
+  .EventAndContact-aboutEvent-form-parametrs-container-limit-p {
+    font-family: "Regular";
+    color: #222733;
+    opacity: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: -2px;
+    margin-bottom: 5px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote {
+    margin-top: 3.05vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-button {
+    width: 100%;
+    background-color: #222733;
+    color: #fff;
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    padding: 1.458vw 5.97vw;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p {
+    margin-left: 0;
+    font-family: "Thin";
+    color: #A0A3A9;
+    width: 262px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .EventAndContact-aboutEvent-buttonAndNote-p a[href="Error404.html"] {
+    color: #A0A3A9;
+    font-family: "Thin";
+  }
+  .EventAndContact-aboutEvent-price {
+    margin-top: 6.22vw;
+    margin-bottom: 6.22vw;
+    margin-left: 8.33vw;
+  }
+  .EventAndContact-aboutEvent-price-result {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .EventAndContact-aboutEvent-price-result-total {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .EventAndContact-aboutEvent-price-result-p {
+    font-family: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #A0A3A9;
+    margin-top: 1.78vw;
+  }
+  .EventAndContact-aboutEvent-price-result-finalPrice {
+    font-family: "Medium";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #222733;
+    margin-top: 0;
+    margin-bottom: 0.833vw;
+  }
+  .EventAndContact-aboutEvent-price-result-priceOnHuman {
+    font-family: "Thin";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #222733;
+  }
+  .EventAndContact-aboutEvent-price-characteristics {
+    margin-top: 7.94vw;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    margin: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-format-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    border-top: 1px solid #545E761F;
+    border-bottom: 1px solid #545E761F;
+    padding: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-quantity-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.47vw;
+    width: 90%;
+    margin: 12px 0;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-p {
+    font-family: "Regular";
+    color: #A0A3A9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .EventAndContact-aboutEvent-price-characteristics-date-var {
+    font-family: "Medium";
+    color: #222733;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .none {
+    display: none;
+  }
+
+  footer {
+    border-top: 1px solid #A0A3A9;
+    background-color: #fff;
+    display: flex;
+    height: 7.77vw;
+    padding-left: 9.03vw;
+    padding-right: 8.47vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 7px;
+  }
+  .contacts-nordic {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-tel {
+    margin-right: 2.77vw;
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+  }
+  .contacts-mail {
+    font-family: "Thin";
+    color: #222733;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .social {
+    display: flex;
+    gap: 2.38vw;
+    margin-top: 30px;
+  }
+}
